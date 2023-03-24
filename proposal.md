@@ -1,17 +1,18 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *LOESS*
 
 *Write a paragraph describing what the software does and who its
 primary audience is.*
+Loess.jl is a Julia package that provides an implementation of the LOESS (Locally Estimated Scatterplot Smoothing) algorithm for non-parametric regression analysis. The package includes functions for computing local regression estimates and for generating diagnostic plots. LOESS is a flexible method for smoothing data and fitting curves to it by estimating a locally weighted regression line at each point. It is particularly useful when dealing with data that has non-linear relationships or significant noise. The primary audience for this package is statisticians and data analysts who work with large datasets and need a tool for non-parametric regression analysis
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
+| Repository URL |  https://github.com/JuliaStats/Loess.jl  |
+| Main/documentation website |  https://juliahub.com/ui/Packages/Loess/TysgR/0.5.1?page=0  |
 | Year project was started |   |
 | Number of contributors in the past year | `git shortlog -se --since=2022-03-01` may be useful |
 | Number of contributors in the lifetime of the project |   |
@@ -21,18 +22,18 @@ primary audience is.*
 | Typical number of commits per week? |  |
 | Typical commit size | `git log --shortstat` may be useful |
 | How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | yes |
+| Are any legal/licensing steps required to contribute? | no  |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
+- [x] I have installed the software
 - [ ] I have run at least one example
-- [ ] I have run the test suite
+- [x] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
