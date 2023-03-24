@@ -14,7 +14,7 @@ Loess.jl is a Julia package that provides an implementation of the LOESS (Locall
 | Repository URL |  https://github.com/JuliaStats/Loess.jl  |
 | Main/documentation website |  https://juliahub.com/ui/Packages/Loess/TysgR/0.5.1?page=0  |
 | Year project was started | 2013  |
-| Number of contributors in the past year | `git shortlog -se --since=2022-03-01` may be useful - 1|
+| Number of contributors in the past year | `git shortlog -se --since=2022-03-01` may be useful - 1 -> 8 insertions(+), 8 deletions(-)|
 | Number of contributors in the lifetime of the project |  27 |
 | Number of distinct affiliations | 1, 2-5, 5-10, >10 |
 | Where do development discussions take place? | e.g., GitHub issues |
